@@ -65,7 +65,7 @@ The Clipboard-Hijacker Payload is a **modernized, feature-rich post-exploitation
    - Search for `@BotFather` (official Telegram bot for creating bots).
    - Start a chat with @BotFather and send the command: `/newbot`.
    - Follow the prompts: Provide a name for your bot (e.g., "MyClipperBot") and a username ending with "bot" (e.g., "my_clipper_bot").
-   - @BotFather will provide your bot's API token (e.g., `8000000000:AAGRDjUqixqTmYIAKHD9_hbLCED6OzyEYpo`). Copy this token — keep it secret.
+   - @BotFather will provide your bot's API token (e.g., `8000000000:AAGRDjUqixqTmYIAKHD9_hbLCED6OzyQEpo`). Copy this token — keep it secret.
 
 2. **Set Up a Private Channel or Group**:
    - In Telegram, create a new private channel (Menu > New Channel > Set as private) or group (Menu > New Group).
@@ -78,7 +78,7 @@ The Clipboard-Hijacker Payload is a **modernized, feature-rich post-exploitation
      https://api.telegram.org/botYOUR_TOKEN_HERE/getUpdates
      ```
    - Press Enter — you'll see a JSON response.
-   - Look for `"chat":{"id":-1001987654321,...}` (the ID is usually negative for channels/groups). Copy the `id` value (e.g., `-1001987654321` or `5658362872`).
+   - Look for `"chat":{"id":-1001987654321,...}` (the ID is usually negative for channels/groups). Copy the `id` value (e.g., `-1001987654321` or `5000000000`).
    - If empty (`"result": []`), send another test message in the channel/group and refresh the URL.
 
 4. **Configure the PowerShell Script**:
@@ -160,3 +160,4 @@ Use only on systems you own or have explicit written permission to test.
 **Original Author:** techchipnet (classic version)  
 
 **Modernized Concept:** Community evolution (educational purposes)
+
