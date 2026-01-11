@@ -65,7 +65,7 @@ The Clipboard-Hijacker Payload is a **modernized, feature-rich post-exploitation
    - Search for `@BotFather` (official Telegram bot for creating bots).
    - Start a chat with @BotFather and send the command: `/newbot`.
    - Follow the prompts: Provide a name for your bot (e.g., "MyClipperBot") and a username ending with "bot" (e.g., "my_clipper_bot").
-   - @BotFather will provide your bot's API token (e.g., `8508253438:AAGRDjUqixqTmLDCKHD5_hbLCED6OzyEYpo`). Copy this token — keep it secret.
+   - @BotFather will provide your bot's API token (e.g., `8000000000:AAGRDjUqixqTmYIAKHD9_hbLCED6OzyEYpo`). Copy this token — keep it secret.
 
 2. **Set Up a Private Channel or Group**:
    - In Telegram, create a new private channel (Menu > New Channel > Set as private) or group (Menu > New Group).
@@ -158,4 +158,5 @@ Use only on systems you own or have explicit written permission to test.
 **Last Updated:** January 11, 2026  
 **Version:** 2026 Modern Edition (Telegram Exfil + Multi-Chain Clipper)  
 **Original Author:** techchipnet (classic version)  
+
 **Modernized Concept:** Community evolution (educational purposes)
