@@ -2,7 +2,7 @@ import requests
 import json
 
 # Step 1: Create bot via @BotFather in Telegram app, then paste the token here
-BOT_TOKEN = '8508253438:AAGRDjUqixqTmLDCKHD5_hbLCED6OzyEYpo'  # e.g., '1234567890:AAHxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+BOT_TOKEN = '8000000000:AAGRDjUqixqTmLDCKHD5_hbLCED6OzyARpo'  # e.g., '1234567890:AAHxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 # Step 2: Create a private channel/group in Telegram, add the bot as admin, send a message, then run this script
 
@@ -26,4 +26,5 @@ if __name__ == '__main__':
     if BOT_TOKEN == 'YOUR_NEW_BOT_TOKEN_FROM_BOTFATHER':
         print("Replace BOT_TOKEN with your real token from @BotFather, then rerun.")
     else:
+
         get_chat_id(BOT_TOKEN)
